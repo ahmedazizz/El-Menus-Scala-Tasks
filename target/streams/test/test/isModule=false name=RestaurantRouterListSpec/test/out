@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRestaurantRouterListSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA RestaurantRouter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all the Restaurants[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return all the closed restaurants[0m[0m

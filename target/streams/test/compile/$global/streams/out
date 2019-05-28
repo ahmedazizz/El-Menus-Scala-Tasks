@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/TodoRouterUpdateSpec.scala:80:57: not found: value restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurant)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/TodoRouterUpdateSpec.scala:90:57: not found: value restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurant)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/TodoRouterUpdateSpec.scala:110:16: parameter 'closed' is already specified at parameter position 18[0m
+[0m[[0m[31merror[0m] [0m[0m        closed = true[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/TodoRouterUpdateSpec.scala:91:46: 19 arguments but expected 18 for method apply: (enName: String, arName: String, state: String, routingMethod: String, logo: String, coverPhoto: String, enDescription: String, arDescription: String, shortNumber: String, facebookLink: String, twitterLink: String, youtubeLink: String, website: String, onlinePayment: Boolean, client: Boolean, pendingInfo: Boolean, pendingMenu: Boolean, closed: Boolean)UpdateRestaurant in object UpdateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val updateRestaurant = UpdateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/TodoRouterUpdateSpec.scala:141:57: not found: value restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurant)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
