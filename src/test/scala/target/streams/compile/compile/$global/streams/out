@@ -1,0 +1,295 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model.StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.testkit.ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, WordSpec}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:6:13: not found: type WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m    extends WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:7:10: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m    with Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:8:10: not found: type ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m    with ScalatestRouteTest {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:9:10: not found: value de[0m
+[0m[[0m[31merror[0m] [0m[0m  import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:10:13: object circe is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m  import io.circe.generic.auto._[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:12:24: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "A RestaurantRouter" should {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:14:34: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "return all the Restaurants" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:16:9: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:37:9: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:60:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurants)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:62:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:64:7: not found: value Get[0m
+[0m[[0m[31merror[0m] [0m[0m      Get("/restaurant") ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:64:45: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Get("/restaurant") ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:65:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:65:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:66:31: not found: value responseAs[0m
+[0m[[0m[31merror[0m] [0m[0m        val respRestaurants = responseAs[Seq[Restaurant]][0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:66:46: not found: type Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        val respRestaurants = responseAs[Seq[Restaurant]][0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:71:41: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "return all the closed restaurants" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:73:9: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:92:11: not found: value closed[0m
+[0m[[0m[31merror[0m] [0m[0m          closed = true[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:94:9: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:113:11: not found: value closed[0m
+[0m[[0m[31merror[0m] [0m[0m          closed = false[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:116:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurants)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:118:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:120:7: not found: value Get[0m
+[0m[[0m[31merror[0m] [0m[0m      Get("/restaurant/closed") ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:120:52: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Get("/restaurant/closed") ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:121:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:121:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:122:31: not found: value responseAs[0m
+[0m[[0m[31merror[0m] [0m[0m        val respRestaurants = responseAs[Seq[Restaurant]][0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterListSpec.scala:122:46: not found: type Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        val respRestaurants = responseAs[Seq[Restaurant]][0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model.StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.testkit.ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, WordSpec}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:6:13: not found: type WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m    extends WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:7:10: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m    with Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:8:10: not found: type ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m    with ScalatestRouteTest {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:9:10: not found: value de[0m
+[0m[[0m[31merror[0m] [0m[0m  import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:10:13: object circe is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m  import io.circe.generic.auto._[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:12:24: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "A RestaurantRouter" should {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:14:33: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "reject invalid Restaurant" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:15:30: not found: value CreateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val createRestaurant = CreateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:35:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository()[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:37:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:39:7: not found: value Post[0m
+[0m[[0m[31merror[0m] [0m[0m      Post("/restaurant", createRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:39:64: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Post("/restaurant", createRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:40:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.BadRequest[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:40:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.BadRequest[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:44:29: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "save valid Restaurant" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:45:30: not found: value CreateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val createRestaurant = CreateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:65:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository()[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:67:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:69:7: not found: value Post[0m
+[0m[[0m[31merror[0m] [0m[0m      Post("/restaurant", createRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:69:64: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Post("/restaurant", createRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:70:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:70:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:71:26: not found: value responseAs[0m
+[0m[[0m[31merror[0m] [0m[0m        val restaurant = responseAs[Restaurant][0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterSaveSpec.scala:71:37: not found: type Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m        val restaurant = responseAs[Restaurant][0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model.StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.testkit.ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, WordSpec}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:6:13: not found: type WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m    extends WordSpec[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:7:10: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m    with Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:8:10: not found: type ScalatestRouteTest[0m
+[0m[[0m[31merror[0m] [0m[0m    with ScalatestRouteTest {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:9:10: not found: value de[0m
+[0m[[0m[31merror[0m] [0m[0m  import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:10:13: object circe is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m  import io.circe.generic.auto._[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:13:5: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m    Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:34:5: not found: value Restaurant[0m
+[0m[[0m[31merror[0m] [0m[0m    Restaurant([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:57:24: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "A RestaurantRouter" should {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:59:33: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "reject invalid restaurant" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:60:30: not found: value UpdateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val updateRestaurant = UpdateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:78:9: not found: value closed[0m
+[0m[[0m[31merror[0m] [0m[0m        closed = true[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:80:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurants)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:82:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:84:7: not found: value Put[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/id2", updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:84:67: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/id2", updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:85:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.BadRequest[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:85:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.BadRequest[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:89:52: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "return NotFound with non existing restaurant" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:90:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurants)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:91:30: not found: value UpdateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val updateRestaurant = UpdateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:109:9: not found: value closed[0m
+[0m[[0m[31merror[0m] [0m[0m        closed = true[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:111:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:113:7: not found: value Put[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/hello", updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:113:69: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/hello", updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:114:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.NotFound[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:114:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.NotFound[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:118:31: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "update valid restaurant" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:120:30: not found: value UpdateRestaurant[0m
+[0m[[0m[31merror[0m] [0m[0m      val updateRestaurant = UpdateRestaurant([0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:138:9: not found: value closed[0m
+[0m[[0m[31merror[0m] [0m[0m        closed = true[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:140:28: not found: type InMemoryRestaurantRepository[0m
+[0m[[0m[31merror[0m] [0m[0m      val repository = new InMemoryRestaurantRepository(restaurants)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:142:24: not found: type RestaurantRouter[0m
+[0m[[0m[31merror[0m] [0m[0m      val router = new RestaurantRouter(repository)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:144:7: not found: value Put[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/" + updateId, updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:144:75: not found: value check[0m
+[0m[[0m[31merror[0m] [0m[0m      Put("/restaurant/" + updateId, updateRestaurant) ~> router.route ~> check {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:145:9: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zizoabdel-aziz/Downloads/akkahttp-quickstart-draft-master/src/test/scala/RestaurantRouterUpdateSpec.scala:145:25: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m        status shouldBe StatusCodes.OK[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m98 errors found[0m
