@@ -1,4 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mTodoRouterSaveSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA RestaurantRouter[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should reject invalid Restaurant[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should save valid Restaurant[0m[0m

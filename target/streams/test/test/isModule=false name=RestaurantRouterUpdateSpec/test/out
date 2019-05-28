@@ -1,6 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mRestaurantRouterUpdateSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA RestaurantRouter[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should reject invalid restaurant[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return NotFound with non existing restaurant[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should update valid restaurant *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  404 Not Found was not equal to 200 OK (RestaurantRouterUpdateSpec.scala:145)[0m[0m
