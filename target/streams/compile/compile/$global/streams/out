@@ -1,0 +1,34 @@
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:6:17: not found: value HttpRequest[0m
+[0m[[0m[31merror[0m] [0m[0m  val request = HttpRequest(uri = "/restaurants")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:6:29: not found: value uri[0m
+[0m[[0m[31merror[0m] [0m[0m  val request = HttpRequest(uri = "/restaurants")[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:7:24: not found: type ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val system: ActorSystem = ActorSystem("helloworld")[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:7:38: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val system: ActorSystem = ActorSystem("helloworld")[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:8:26: not found: type ExecutionContext[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val executor: ExecutionContext = system.dispatcherimplicit [0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:9:21: not found: type ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m  val materializer: ActorMaterializer = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:9:41: not found: value ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m  val materializer: ActorMaterializer = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:11:15: not found: value path[0m
+[0m[[0m[31merror[0m] [0m[0m  def route = path("hello") {  get {    complete("Hello, World!")  }}[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:11:32: not found: value get[0m
+[0m[[0m[31merror[0m] [0m[0m  def route = path("hello") {  get {    complete("Hello, World!")  }}[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:11:41: not found: value complete[0m
+[0m[[0m[31merror[0m] [0m[0m  def route = path("hello") {  get {    complete("Hello, World!")  }}[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Applications/XAMPP/xamppfiles/htdocs/scala-temp/src/main/scala/Service.scala:13:3: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m  Http().bindAndHandle(route, host, port)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

@@ -1,0 +1,24 @@
+run
+sbt run
+run
+sbt run
+run
+sbt
+update
+build
+run
+update
+run
+sbt update
+update
+sbt update
+update
+new scalatra/scalatra.g8
+jetty:start
+./
+../
+root
+update
+jetty:start
+update
+run

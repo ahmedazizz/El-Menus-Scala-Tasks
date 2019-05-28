@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/hello-world_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StringCode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/StringCode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HttpCalls.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/HttpCalls.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Palindrome.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Palindrome.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Factorial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Factorial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Composition.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Composition.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Applications/XAMPP/xamppfiles/htdocs/scala-temp/target/scala-2.12/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
